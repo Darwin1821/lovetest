@@ -1,0 +1,58 @@
+# Sevgili Testi - Sorular Dosyası
+# Bu dosyayı düzenleyerek soruları değiştirebilirsiniz
+# Format: Q: Soru metni
+#         A: Doğru cevap
+#         P: Puan (isteğe bağlı, varsayılan 10)
+#         H: İpucu (isteğe bağlı)
+# Her soru için bu formatı kullanın
+
+Q: Sevgilinin en sevdiği renk nedir?
+A: pembe
+P: 10
+H: Bir renk düşün...
+
+Q: Sevgilinin doğum günü hangi ay?
+A: ocak
+P: 15
+H: Yılın ilk ayı...
+
+Q: Sevgilinin en sevdiği yemek nedir?
+A: pizza
+P: 10
+H: İtalyan mutfağından...
+
+Q: Sevgilinin en sevdiği hayvan nedir?
+A: kedi
+P: 10
+H: Miyav diyen bir hayvan...
+
+Q: Sevgilinin en sevdiği mevsim nedir?
+A: yaz
+P: 10
+H: En sıcak mevsim...
+
+Q: Sevgilinin en sevdiği müzik türü nedir?
+A: pop
+P: 10
+H: Popüler müzik...
+
+Q: Sevgilinin en sevdiği film türü nedir?
+A: romantik
+P: 10
+H: Aşk dolu filmler...
+
+Q: Sevgilinin en sevdiği içecek nedir?
+A: kahve
+P: 10
+H: Sabahları içilen sıcak içecek...
+
+Q: Sevgilinin en sevdiği tatil yeri neresi?
+A: plaj
+P: 15
+H: Deniz kenarı...
+
+Q: Sevgilinin en sevdiği çiçek nedir?
+A: gül
+P: 10
+H: Aşkın sembolü...
+

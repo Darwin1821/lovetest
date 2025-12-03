@@ -1,0 +1,50 @@
+╔══════════════════════════════════════════════════════════════╗
+║         🌐 SİTEYİ GLOBAL YAPMA - HIZLI REHBER 🌐            ║
+╚══════════════════════════════════════════════════════════════╝
+
+📌 EN KOLAY YOL: NETLIFY (5 DAKİKA)
+
+1️⃣  Netlify.com'a git → Ücretsiz kayıt ol
+2️⃣  "Add new site" → "Deploy manually" seç
+3️⃣  Tüm dosyaları sürükle-bırak yap
+4️⃣  ✅ Site yayında! (örn: siteniz.netlify.app)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🏷️  DOMAIN SATIN ALMA
+
+Önerilen Siteler:
+• Namecheap.com (~$10/yıl)
+• GoDaddy.com (~$12/yıl)
+• Google Domains (~$12/yıl)
+
+Domain Önerileri:
+• sevgisorulari.com
+• sevgilitesti.com
+• asktesti.com
+• sevgiliquiz.com
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔗 DOMAIN BAĞLAMA (Netlify)
+
+1. Netlify'da: Site ayarları → Domain settings
+2. "Add custom domain" → Domain adını gir
+3. Netlify size DNS ayarlarını verir
+4. Domain satıcısında bu ayarları yap
+5. 1-2 saat bekle (DNS yayılımı)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 DİĞER SEÇENEKLER
+
+• Vercel.com (GitHub ile kolay)
+• GitHub Pages (Ücretsiz)
+• Cloudflare Pages (Hızlı)
+
+Detaylı bilgi için: DEPLOYMENT.md dosyasını okuyun
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ HAZIR! Site global olarak erişilebilir olacak!
+

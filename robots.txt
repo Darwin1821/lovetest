@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Sitemap - Hosting servisi otomatik olarak domain'i ekler
+# Netlify/Vercel gibi servisler otomatik olarak sitemap'i bulur
+

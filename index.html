@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sevgili Testi - Sevgiline Özel Sorular Hazırla | Aşk Quiz</title>
+    <meta name="description" content="Sevgiline özel sorular hazırla ve test et! Ücretsiz sevgili testi, aşk quiz'i. Sorularını hazırla, linki paylaş, sevgilin testi çözsün!">
+    <meta name="keywords" content="sevgili testi, aşk testi, sevgili quiz, aşk quiz, sevgili soruları, sevgili testi hazırla">
+    <meta name="author" content="Sevgili Testi">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sevgili Testi - Sevgiline Özel Sorular Hazırla">
+    <meta property="og:description" content="Sevgiline özel sorular hazırla ve test et! Ücretsiz sevgili testi, aşk quiz'i.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Sevgili Testi - Sevgiline Özel Sorular Hazırla">
+    <meta property="twitter:description" content="Sevgiline özel sorular hazırla ve test et! Ücretsiz sevgili testi, aşk quiz'i.">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Başlangıç Ekranı -->
+        <div id="start-screen" class="screen active">
+            <div class="heart-icon">💕</div>
+            <h1 id="site-title">Sevgili Testi</h1>
+            <p class="subtitle" id="site-subtitle">Sevgilin hakkında ne kadar biliyorsun? Hadi test edelim!</p>
+            <div class="button-group">
+                <button class="btn-primary" onclick="showCreateScreen()">Test Hazırla</button>
+                <button class="btn-secondary" onclick="startQuiz()">Teste Başla</button>
+                <button class="btn-start" onclick="startQuizDirect()">🚀 Hemen Başla</button>
+            </div>
+            <div class="visitor-counter">
+                <span>👥 Siteye giren kişi sayısı: <strong id="visitor-count">0</strong></span>
+            </div>
+            <div class="decorative-hearts">
+                <span>💖</span>
+                <span>💝</span>
+                <span>💗</span>
+            </div>
+        </div>
+
+        <!-- Soru Hazırlama Ekranı -->
+        <div id="create-screen" class="screen">
+            <h2 class="screen-title">Test Hazırla</h2>
+            <p class="subtitle">Sevgiline soracağın soruları hazırla</p>
+            
+            <div class="question-count-selector">
+                <label>Soru Sayısı:</label>
+                <select id="question-count-select" onchange="updateQuestionCount()">
+                    <option value="5">5 Soru</option>
+                    <option value="10" selected>10 Soru</option>
+                    <option value="15">15 Soru</option>
+                    <option value="20">20 Soru</option>
+                </select>
+            </div>
+
+            <div id="questions-container" class="questions-container">
+                <!-- Sorular buraya dinamik olarak eklenecek -->
+            </div>
+
+            <div class="create-actions">
+                <button class="btn-secondary" onclick="goToStart()">Geri Dön</button>
+                <button class="btn-primary" onclick="saveQuestions()">Soruları Kaydet ve Link Oluştur</button>
+            </div>
+        </div>
+
+        <!-- Link Paylaşma Ekranı -->
+        <div id="share-screen" class="screen">
+            <div class="heart-icon">💌</div>
+            <h2 class="screen-title">Test Hazır!</h2>
+            <p class="subtitle">Bu linki sevgiline yolla ve testi çözsün</p>
+            
+            <div class="share-link-container">
+                <div class="link-box">
+                    <input type="text" id="share-link" readonly>
+                    <button class="btn-copy" onclick="copyLink()">📋 Kopyala</button>
+                </div>
+                <div class="share-buttons">
+                    <button class="btn-share" onclick="shareWhatsApp()">💬 WhatsApp</button>
+                    <button class="btn-share" onclick="shareTelegram()">✈️ Telegram</button>
+                </div>
+            </div>
+
+            <div class="share-info">
+                <p>✅ Linki kopyalayıp sevgiline gönder</p>
+                <p>✅ Sevgilin testi çözdükten sonra sonuçları görebilirsin</p>
+            </div>
+
+            <div class="create-actions">
+                <button class="btn-secondary" onclick="goToStart()">Ana Sayfaya Dön</button>
+                <button class="btn-primary" onclick="testQuiz()">Test Et (Önizleme)</button>
+            </div>
+        </div>
+
+        <!-- Quiz Ekranı -->
+        <div id="quiz-screen" class="screen">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+            <div class="question-number" id="question-number">Soru 1 / 10</div>
+            <div class="question-card">
+                <h2 id="question-text">Soru buraya gelecek</h2>
+                <div class="input-group">
+                    <input type="text" id="answer-input" placeholder="Cevabınızı yazın..." autocomplete="off">
+                    <button class="btn-answer" onclick="submitAnswer()">Cevap Ver</button>
+                </div>
+                <div class="hint" id="hint-text"></div>
+            </div>
+            <div class="score-display">
+                <span>Puan: <strong id="current-score">0</strong></span>
+            </div>
+        </div>
+
+        <!-- Sonuç Ekranı -->
+        <div id="result-screen" class="screen">
+            <div class="result-icon" id="result-icon">🎉</div>
+            <h1 id="result-title">Tebrikler!</h1>
+            <div class="score-card">
+                <div class="final-score">
+                    <span class="score-label">Toplam Puan</span>
+                    <span class="score-value" id="final-score">0</span>
+                </div>
+                <div class="score-percentage">
+                    <span id="score-percentage">0%</span>
+                </div>
+            </div>
+            <div class="result-message" id="result-message">
+                Harika bir iş çıkardın!
+            </div>
+            <div class="result-details">
+                <div class="detail-item">
+                    <span class="detail-label">✅ Doğru:</span>
+                    <span class="detail-value correct" id="correct-count">0</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">❌ Yanlış:</span>
+                    <span class="detail-value wrong" id="wrong-count">0</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">📊 Toplam Soru:</span>
+                    <span class="detail-value" id="total-questions">0</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">⭐ Toplam Puan:</span>
+                    <span class="detail-value score" id="total-score">0</span>
+                </div>
+            </div>
+            <button class="btn-primary" onclick="restartQuiz()">Tekrar Oyna</button>
+            <div class="footer-text" id="footer-text">Sevgiyle yapıldı ❤️</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

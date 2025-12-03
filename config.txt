@@ -1,0 +1,10 @@
+# Sevgili Testi - Ayarlar Dosyası
+# Bu dosyayı düzenleyerek site başlığı, alt başlık ve alt yazıyı değiştirebilirsiniz
+# Her satırda "anahtar=değer" formatını kullanın
+# Soruları düzenlemek için questions.txt dosyasını kullanın
+
+siteTitle=Sevgili Testi
+siteSubtitle=Sevgilin hakkında ne kadar biliyorsun? Hadi test edelim!
+footerText=Sevgiyle yapıldı ❤️
+# siteURL=https://sevgisorulari.com (Domain aldıktan sonra buraya yazın, opsiyonel)
+

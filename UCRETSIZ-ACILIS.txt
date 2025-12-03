@@ -1,0 +1,145 @@
+╔══════════════════════════════════════════════════════════════╗
+║     🆓 DOMAIN OLMADAN ÜCRETSİZ GLOBAL AÇILMA REHBERİ 🆓     ║
+╚══════════════════════════════════════════════════════════════╝
+
+✅ EN KOLAY YOL: NETLIFY (5 DAKİKA - TAMAMEN ÜCRETSİZ!)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 ADIM ADIM NETLIFY İLE AÇILMA:
+
+1️⃣  Netlify.com'a git
+    → https://www.netlify.com
+
+2️⃣  "Sign up" → Ücretsiz kayıt ol
+    → Email ile veya GitHub ile kayıt olabilirsin
+
+3️⃣  Dashboard'da "Add new site" butonuna tıkla
+
+4️⃣  "Deploy manually" seçeneğini seç
+
+5️⃣  TÜM DOSYALARI sürükle-bırak yap
+    → index.html, style.css, script.js, config.txt, vb.
+    → Hepsini birden seçip sürükle
+
+6️⃣  ✅ HAZIR! Site yayında!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🌐 SİTE URL'İN:
+
+Netlify otomatik olarak şöyle bir URL verir:
+• sevgisorulari-12345.netlify.app
+• veya sevgisorulari.netlify.app (eğer müsaitse)
+
+Bu URL'i değiştirebilirsin:
+→ Site ayarları → "Change site name"
+→ İstediğin ismi yaz (örn: sevgisorulari)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📱 NASIL PAYLAŞILIR?
+
+✅ Link örneği:
+https://sevgisorulari.netlify.app
+
+✅ Bu linki:
+• WhatsApp'ta paylaş
+• Instagram'da paylaş
+• Facebook'ta paylaş
+• Her yerde paylaş!
+
+✅ İnsanlar linke tıklayınca direkt siteye girer!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔄 GÜNCELLEME YAPMAK İÇİN:
+
+1. Dosyaları değiştir
+2. Netlify'a tekrar sürükle-bırak
+3. Otomatik güncellenir!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 DİĞER ÜCRETSİZ SEÇENEKLER:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2️⃣  VERCEL (GitHub ile kolay)
+
+1. GitHub.com'da hesap oluştur
+2. Yeni repository oluştur
+3. Dosyaları yükle
+4. Vercel.com → GitHub ile bağla
+5. Deploy et
+→ URL: siteniz.vercel.app
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+3️⃣  GITHUB PAGES (Tamamen ücretsiz)
+
+1. GitHub.com'da hesap oluştur
+2. Yeni repository oluştur (public)
+3. Dosyaları yükle
+4. Settings → Pages → Source: main branch
+5. Deploy et
+→ URL: kullaniciadi.github.io/repo-adi
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+4️⃣  CLOUDFLARE PAGES (Hızlı)
+
+1. Cloudflare.com'da hesap oluştur
+2. Pages → Create a project
+3. Dosyaları yükle
+4. Deploy et
+→ URL: siteniz.pages.dev
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⭐ EN KOLAY: NETLIFY
+
+Neden Netlify?
+✅ 5 dakikada hazır
+✅ Sürükle-bırak kolaylığı
+✅ Otomatik HTTPS (güvenli)
+✅ Hızlı ve güvenilir
+✅ Tamamen ücretsiz
+✅ Sınırsız bant genişliği
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📋 NETLIFY İLE HIZLI BAŞLANGIÇ:
+
+1. Netlify.com → Sign up (ücretsiz)
+2. "Add new site" → "Deploy manually"
+3. Dosyaları sürükle-bırak
+4. ✅ Site yayında!
+
+URL örneği: sevgisorulari.netlify.app
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 SONUÇ:
+
+✅ Domain gerekmez!
+✅ Tamamen ücretsiz!
+✅ 5 dakikada hazır!
+✅ Global erişilebilir!
+✅ HTTPS otomatik!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💬 ÖRNEK URL'LER:
+
+• sevgisorulari.netlify.app
+• asktesti.vercel.app
+• sevgiliquiz.pages.dev
+• kullaniciadi.github.io/sevgili-testi
+
+Hepsi çalışır! Hangisini seçersen seç! 🚀
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ HAZIR! Domain olmadan da site global olarak açılabilir!
+
